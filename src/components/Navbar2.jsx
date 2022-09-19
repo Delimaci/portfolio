@@ -8,8 +8,20 @@ const Navbar2 = () => {
 
     const showMenu = () => {
         setActive(!active)
+       
+       
+        
     }
-
+    function lockScroll() {
+        document.body.style.overflow = 'hidden';
+   
+    }
+   
+    function someFunc() {
+        showMenu();
+        lockScroll();
+    }
+   
   return (
     <div className='flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 bg-[#121212] text-white'>
         <div className="text-2xl font-bold text-center uppercase">
@@ -19,7 +31,7 @@ const Navbar2 = () => {
         <nav>
 
             <div className='absolute right-6 md:hidden scale-150'>
-            <AiOutlineMenu onClick={showMenu} className='scale-150 cursor-pointer' />
+            <AiOutlineMenu onClick={someFunc} className='scale-150 cursor-pointer' />
             </div>
 
             <ul className='hidden md:flex gap-8 p-6 px-40 uppercase bg-black/5 '>
@@ -28,7 +40,7 @@ const Navbar2 = () => {
             <li className='md:text-xl text-xl p-4'>Contact</li>
             </ul>
 
-            <MenuItems showMenu={showMenu} active={active} />
+            <MenuItems showMenu={someFunc} active={active} />
 
         </nav>
 
