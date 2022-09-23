@@ -7,7 +7,7 @@ const Hero = () => {
     
 
 
-    <div className='w-full bg-[#121212]	 py-36 px-4 justify-center'>
+    <div className='w-full bg-[#121212]	py-28 md:py-16 px-4 justify-center'>
    <div className='max-w-[800px] mt-[-96px]  w-full h-screen mx-auto text-center flex flex-col justify-center text-white'>
   
         
