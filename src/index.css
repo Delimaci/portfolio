@@ -12,9 +12,10 @@
 body {
  
   font-family: 'Poppins', sans-serif;
- background-color: #121212;
+  background: linear-gradient(178.1deg, #7b657c, rgb(36, 32, 94) 82.4%);
 
 }
+
 
 
 html{
