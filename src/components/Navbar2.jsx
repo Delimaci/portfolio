@@ -23,7 +23,7 @@ const Navbar2 = () => {
     }
 
   return (
-    <div className='fixed flex justify-between items-center h-24  w-full mx-auto px-10  2xl:px-60 bg-transparent text-white'>
+    <div className='z-50 fixed flex justify-between items-center h-24  w-full mx-auto px-10 2xl:px-60 bg-transparent text-white'>
         <div className="text-2xl font-bold text-center uppercase ">
             <h1 className=' text-purple-400 text-4xl md:text-5xl  md:px-6'></h1>
         </div>

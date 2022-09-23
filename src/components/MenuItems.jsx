@@ -15,7 +15,7 @@ function someFunc2() {
 
   return (
    
-          <ul className={active ? 'md:hidden flex-col flex items-center fixed inset-0 w-full uppercase gap-8 justify-center text-white p-8 bg-black/40 backdrop-blur ease-in-out duration-500' : 'fixed left-[100%]'}>
+          <ul className={active ? 'md:hidden flex-col flex items-center fixed inset-0 w-full uppercase gap-8 justify-center text-white p-8 bg-black/40 backdrop-blur ease-in-out duration-700' : 'fixed left-[100%]'}>
             <AiOutlineClose onClick={someFunc2} size={20} className='text-white cursor-pointer transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover: duration-300' />
             <li className='text-white transition duration-500 ease-in-out 
                        transform 
