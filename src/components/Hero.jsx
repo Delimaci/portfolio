@@ -7,12 +7,12 @@ const Hero = () => {
     
 
 
-    <div className='w-full bg-[#121212]	py-28 md:py-14 px-4 justify-center'>
+    <div className='w-full bg-[#121212]	py-10 md:py-8 px-4 justify-center '>
    <div className='max-w-[800px] mt-[-96px]  w-full h-screen mx-auto text-center flex flex-col justify-center text-white'>
   
         
         <p className='rounded-full my-6 mx-auto py-2 bg-[#8a00e0] w-[230px] text-[#fff] font-bold p-2'>UI/UX Developer</p>
-        <div className="animate-wave text-4xl md:text-7xl ">👋</div>
+        <div className="animate-wave text-5xl md:text-7xl ">👋</div>
         <br></br>
         <h1 className='  px-10 md:text-7xl sm:text-6xl text-4xl font-bold md:py-6  '>Hi, I'm Delimaci. </h1>
 

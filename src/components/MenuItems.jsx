@@ -26,7 +26,11 @@ function someFunc2() {
                        transform 
                        hover:-translate-y-1 hover:scale-110 
                        rounded-lg p-4 border border-white-900 cursor-pointer' >Portfolio</li>
-        
+
+                <li className='text-white transition duration-500 ease-in-out 
+                       transform 
+                       hover:-translate-y-1 hover:scale-110 
+                       rounded-lg p-4 border border-white-900 cursor-pointer' >Services</li>
 
         <li className='text-white transition duration-500 ease-in-out 
                        transform 
