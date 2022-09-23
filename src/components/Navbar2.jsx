@@ -42,7 +42,7 @@ const Navbar2 = () => {
  
 
   return (
-    <div className={color ? 'transition-all duration-700 bg-black/80 sticky top-0 z-50' : 'transition-all duration-700 top-0  '}>
+    <div className={color ? 'shadow-xl transition-all duration-700 bg-white sticky top-0 z-50 ' : 'transition-all duration-700 top-0  '}>
     <div className='z-50 sticky top-0  flex items-center justify-center h-24   mx-auto px-50 2xl:px-50  text-white'>
         <div className="text-2xl font-bold text-center uppercase ">
             <h1 className=' text-purple-400 text-4xl md:text-5xl  md:px-6'></h1>
@@ -51,24 +51,25 @@ const Navbar2 = () => {
         <nav>
 
             <div className='absolute right-6 md:hidden scale-150 '>
-            <AiOutlineMenu onClick={someFunc} className='scale-150 cursor-pointer ' />
+            
+            <AiOutlineMenu onClick={someFunc} className={color ? 'scale-150 cursor-pointer text-black ' : 'scale-150 cursor-pointer text-white '} />
             </div>
-
+        
             <ul className='hidden md:px-2 md:flex gap-8 sm:gap-4 p-6 uppercase  '>
-            <li className='md:text-xl text-xl p-4'>About</li>
-            <li className='md:text-xl text-xl p-4' >Portfolio</li>
-            <li className='md:text-xl text-xl p-4' >Services</li>
-            <li className='md:text-xl text-xl p-4'>Contact</li>
+            <li     className={color ? 'md:text-xl text-xl p-4 transition-all duration-700 text-black' : 'md:text-xl text-xl p-4 transition-all duration-700 top-0 text-white '}>About</li>
+            <li     className={color ? 'md:text-xl text-xl p-4 transition-all duration-700 text-black' : 'md:text-xl text-xl p-4 transition-all duration-700 top-0 text-white '}>Portfolio</li>
+            <li     className={color ? 'md:text-xl text-xl p-4 transition-all duration-700 text-black' : 'md:text-xl text-xl p-4 transition-all duration-700 top-0 text-white '}>Services</li>
+            <li     className={color ? 'md:text-xl text-xl p-4 transition-all duration-700 text-black' : 'md:text-xl text-xl p-4 transition-all duration-700 top-0 text-white '}>Contact</li>
            
-            <div className=' flex gap-5 p-6 py-5 scale-150 xl:absolute right-20 px- xl:px-40 '>
+            <div className={color ? 'flex gap-5 p-6 py-5 scale-150 xl:absolute right-20 px- xl:px-40 transition-all duration-700 text-black' : 'flex gap-5 p-6 py-5 scale-150 xl:absolute right-20 px- xl:px-40 transition-all duration-700 text-white '} >
             <span  >
-        <FiTwitter style={buttonStyling}/>
+        <FiTwitter  />
         </span>
         <span >
-        <FiTwitter style={buttonStyling}/>
+        <FiTwitter />
         </span>
         <span >
-        <FiTwitter style={buttonStyling}/>
+        <FiTwitter />
         </span>
 </div>
         
