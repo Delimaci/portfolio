@@ -57,9 +57,19 @@ const Navbar2 = () => {
             
             <AiOutlineMenu onClick={someFunc} className={color ? 'scale-150 cursor-pointer text-black ' : 'scale-150 cursor-pointer text-white '} />
             </div>
-        
-            <ul className='hidden md:px-2 md:flex gap-8 sm:gap-4 p-6 uppercase  '>
-            <li     className={color ? 'md:text-xl text-xl p-4 transition-all duration-700 text-black' : 'md:text-xl text-xl p-4 transition-all duration-700 top-0 text-white '}>About</li>
+             
+            <ul className='hidden md:px-2 md:flex gap-8 sm:gap-4 p-6 uppercase  ' 
+            href="#about">
+                
+            <li    
+            
+            className={color ? 'md:text-xl text-xl p-4 transition-all duration-700 text-black' 
+            : 'md:text-xl text-xl p-4 transition-all duration-700 top-0 text-white '}>About
+            
+            </li>
+
+
+            
             <li     className={color ? 'md:text-xl text-xl p-4 transition-all duration-700 text-black' : 'md:text-xl text-xl p-4 transition-all duration-700 top-0 text-white '}>Portfolio</li>
             <li     className={color ? 'md:text-xl text-xl p-4 transition-all duration-700 text-black' : 'md:text-xl text-xl p-4 transition-all duration-700 top-0 text-white '}>Services</li>
             <li     className={color ? 'md:text-xl text-xl p-4 transition-all duration-700 text-black' : 'md:text-xl text-xl p-4 transition-all duration-700 top-0 text-white '}>Contact</li>

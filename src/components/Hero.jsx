@@ -14,7 +14,7 @@ const Hero = () => {
         <p className='rounded-full my-6 mx-auto py-2 bg-[#ffa0f2]/90 w-[230px] text-[#fff] font-bold p-2'>UI/UX Developer</p>
         <div className="animate-wave text-5xl md:text-7xl ">👋</div>
         <br></br>
-        <h1 className='  px-10 md:text-7xl sm:text-6xl text-4xl font-bold md:py-6  text-[#f5c0ff]'>Hi, I'm Delimaci. </h1>
+        <h1 className='  px-10 md:text-7xl sm:text-6xl text-4xl font-bold md:py-6  text-[#fdfbfd]'>Hi, I'm Gabrielle.  </h1>
 
        
         
@@ -30,7 +30,7 @@ const Hero = () => {
         loop
         />
         </div>
-        <p className='md:text-2xl text-xl font-bold  text-[#ffd8f5] py-3'>and designing cool websites.</p>
+        <p className='md:text-2xl text-xl font-bold  text-[#ffd8f5] py-3'></p>
 
 
 

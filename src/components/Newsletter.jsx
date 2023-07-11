@@ -2,11 +2,11 @@ import React from 'react'
 
 const Newsletter = () => {
   return (
-    <div className='w-full py-16 text-black px-4'>
+    <div className='w-full py-16 text-black px-4 bg-[#a739bd]'>
         <div className='max-w-[1240px] mx-auto grid lg:grid-cols-3'>
             <div className='lg:col-span-2 my-4'>
-                <h1 className='text-[#b640ff] md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Want a similar site built for you?</h1>
-                <p>Sign up to my newsletter</p>
+                <h1 className='text-[#fcfcfc] md:text-4xl sm:text-3xl text-2xl font-bold py-2'>Want a similar site built for you?</h1>
+                <p className='text-[#fcfcfc]'> Sign up to my newsletter</p>
             </div>
             <div className='my-4'>
             <div className='flex flex-col sm:flex-row items-center justify-between w-full'>
